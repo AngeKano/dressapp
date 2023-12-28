@@ -37,9 +37,9 @@ export default function PriseMain({ navigation: { navigate } }) {
       />
       </View>
       <Text style={{ fontFamily: 'MonumentExtended-Regular', fontSize: 25,textAlign: 'center' }}>Votre application de pressing</Text>
-      <Text style={{ fontFamily: 'Poppins-Light', fontSize: 17, textAlign: 'center' }}>Vous aide dans l’entretien de vos vêtements en tous genre et vous livre partout à Abidjan</Text>
+      <Text style={{ fontFamily: 'Poppins-Light', fontSize: 17, textAlign: 'center', color: '#606060' }}>Vous aide dans l’entretien de vos vêtements en tous genre et vous livre partout à Abidjan</Text>
       <View style={{ flex:1, justifyContent: 'flex-end', marginBottom:10}}>
-      <Button label={"Commencer"} href={() => navigate("Login")}/>
+      <Button label={"Commencer"} href={() => navigate("SignIn")}/>
       </View>
       <StatusBar style="auto" />
     </View>

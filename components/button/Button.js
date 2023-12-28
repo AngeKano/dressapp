@@ -9,4 +9,4 @@ const Button = ({label,href,}) => {
   )
 }
 
-export default Button 
+export default Button
